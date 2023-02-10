@@ -1,0 +1,142 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header CSS Start Here */
+.header{
+	background: #87509c;
+	padding: 30px 0px 0px;
+}
+
+.header .main-menu .navbar-nav a{
+	font-size: 16px;
+	color: #fff;
+	background: #87509c;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-left: 15px;
+	text-transform: uppercase;
+	transition: 1s ease;
+}
+
+.header .main-menu .navbar-nav a:hover{
+	background: #643a79;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.header .banner{
+	width: 100%;
+	padding:100px 0px;
+}
+
+.header .banner h1{
+	color: #fff;
+	font-size: 45px;
+	line-height: 55px;
+	margin-bottom: 50px;
+}
+
+.header .banner .btn-primary{
+  align-items: center;
+  appearance: none;
+  background-color: #eb7d4b;
+  border-radius: 5px;
+  border-width: 0;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, #eb7d4b 0 -3px 0 inset;
+  color: #fff;
+  display: inline-flex;
+  font-family: 'Titillium Web', sans-serif;
+  height: 60px;
+  width: 250px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header .banner .btn-primary:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+/* Services Section CSS Start */
+
+.services{
+	width: 100%;
+	background: #17c2a4;
+	padding: 80px 0px;
+}
+
+.services-header{
+	width: 100%;
+	padding: 0px 0px 50px;
+}
+
+.services-header h1{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.services-header p{
+	color: #fff;
+}
+
+.services .inner-service img{
+	margin: 20px 0px 0px;
+}
+.services .inner-service h4{
+	color: #fff;
+	text-transform: uppercase;
+	margin: 40px 0px 0px;
+}
+
+.services .inner-service p{
+	color: #fff;
+	margin: 15px 0px 0px;
+}
